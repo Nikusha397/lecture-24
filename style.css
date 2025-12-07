@@ -152,21 +152,43 @@ a:hover {
 
 @media (max-width: 600px) {
   #block_one .block_item2 .block .timer .timer_box {
-    max-width: 108px;
+    width: 80px;
+    height: 81px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 6.14px;
+    text-align: center;
+    text-transform: uppercase;
   }
   .main {
     background-color: black;
     background-image: url(pictures/stars.png), url(pictures/mountain.png);
     background-position: center, bottom;
-    background-repeat: repeat, no-repeatre;
+    background-repeat: repeat, no-repeat;
     background-size: 50% 50%, 100% 25%;
   }
 
   #block_one .block_item2 .block p {
-    font-size: 0.8rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 100%;
+    letter-spacing: 2.96px;
+    text-align: center;
+  }
+
+  #block_one .block_item2 .block .timer .timer_box span {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 71px;
+    letter-spacing: -1.08px;
+    text-align: center;
+    vertical-align: middle;
   }
 }
